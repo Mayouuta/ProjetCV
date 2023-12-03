@@ -2,15 +2,19 @@
 <html>
 <head>
 <center>
+	<link rel="stylesheet" href="styles.css">
 	<h1>CONTACT ET FEEDBACK</h1>
 </center>
+<div class="links-container">
 <a href ="index.html">Retour Acceuil</a>
 <br>
 <a href ="cv2.html">Retour à la page 2</a>
 <br>
 <a href ="cv3.html">Retour à la page 3</a>
+</div>
 </head>
 <body>
+<div class="container">
 <h2>Contact</h2>
 
 <p style="float:left">
@@ -32,15 +36,17 @@
 <a href="https://www.linkedin.com/in/maya-nabi-14b50b171/"><div><img src='linkedin.png' height="70" width="70"></div></a></p>
 <p>Cliquez sur la photo</p>
 <div style="clear:both"></div>
-
+</div>
 
 
 <h2>Feedback</h2>
 <label for="name">Nom:
 </label>
 <input type="text" id="name" required minlength="3" maxlength="20" size="10">
+<br>
 <label for="surname">Prenom:
 </label>
+<input type="text" id="surname" required minlength="3" maxlength="10" size="10">
 <label for="pos">Votre profession:
 </label>
 <select name="pos">
@@ -48,7 +54,6 @@
 <option value ="pr">Professeur</option>
 <option value ="ss">CEO</option>
 </select>
-<input type="text" id="surname" required minlength="3" maxlength="10" size="10">
 <br>
 <label for="comment">Votre feedback:
 </label>
